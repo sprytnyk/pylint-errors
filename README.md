@@ -8,3 +8,4 @@ correct code.
 ## List of errors
 
 - [R1705 (no-else-return)](errors/R1705.md)
+- [R1710 (inconsistent-return-statements)](errors/R1710.md)
