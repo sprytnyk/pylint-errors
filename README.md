@@ -9,5 +9,6 @@ correct code.
 
 - [C0116 (missing-function-docstring)](errors/C0116.md)
 - [R0205 (useless-object-inheritance)](errors/R0205.md)
+- [R0903 (too-few-public-methods)](errors/R0903.md)
 - [R1705 (no-else-return)](errors/R1705.md)
 - [R1710 (inconsistent-return-statements)](errors/R1710.md)
