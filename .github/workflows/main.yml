@@ -19,12 +19,12 @@ jobs:
     - name: Run tests
       run: python setup.py test
 
-finish:
-  needs: build
-  runs-on: ubuntu-latest
-  steps:
-  - name: Coveralls Finished
-    uses: coverallsapp/github-action@master
-    with:
-      github-token: ${{ secrets.github_token }}
-      parallel-finished: true
+  finish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.github_token }}
+        parallel-finished: true
