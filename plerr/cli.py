@@ -24,7 +24,7 @@ def main():
     args = parser.parse_args()
 
     root = pathlib.Path(__file__).resolve().parent
-    error = list(root.rglob(f'*{args.code}.md'))
+    error = list(root.rglob('*{}.md'.format(args.code)))
     try:
         print(
             highlight(
@@ -36,7 +36,9 @@ def main():
         sys.exit(0)
     except IndexError:
         print(
-            f'Cannot find {args.code} pylint error by such error code.',
+            'Cannot find {} pylint error by such error code.'.format(
+                args.code
+            ),
             file=sys.stderr
         )
         sys.exit(1)
