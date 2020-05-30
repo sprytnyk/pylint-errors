@@ -1,4 +1,4 @@
-name: plerr package
+name: CI
 
 on: [push]
 
