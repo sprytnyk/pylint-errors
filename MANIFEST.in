@@ -1,0 +1,5 @@
+# Include errors into a package
+recursive-include plerr *.md
+
+# Tests related data
+include plerr/tests/command_output_fixture.txt
