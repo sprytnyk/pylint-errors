@@ -8,6 +8,17 @@ correct code.
 
 # CLI usage
 
+In order to use a CLI tool you need to invoke the following commands:
+```console
+$ git clone https://github.com/vald-phoenix/pylint-errors.git
+$ cd pylint-errors
+$ python3 setup.py test
+$ python3 setup.py install
+$ python3 -m plerr R1710
+```
+
+The last one command should produce this:
+![Example](media/example.svg)
 
 ## List of errors
 
