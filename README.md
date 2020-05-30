@@ -1,4 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/vald-phoenix/pylint-errors/blob/master/LICENSE)
+[![CI Status](https://github.com/vald-phoenix/pylint-errors/workflows/CI/badge.svg)](https://github.com/vald-phoenix/pylint-errors/actions?workflow=CI)
+[![Coverage Status](https://coveralls.io/repos/github/vald-phoenix/pylint-errors/badge.svg?branch=master)](https://coveralls.io/github/vald-phoenix/pylint-errors?branch=master)
 
 # pylint-errors
 
