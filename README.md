@@ -6,7 +6,7 @@
 A list of pylint-errors with reasoning and examples of erroneous and
 correct code.
 
-# CLI usage
+## CLI usage
 
 In order to use a CLI tool you need to invoke the following commands:
 ```console
