@@ -52,7 +52,10 @@ documentation available through `plerr` CLI util and I expected many changes
 will be introduced during the near time. When this project will
 become a more mature I will put it to PyPI.
 
-In order to get the latest updates just re-do the steps above.
+In order to get the latest updates just `git pull origin master` and invoke a
+command in the root of the project (`sudo apt install make` if not yet 
+installed) `make rai` to install to Python 3 user space site packages or
+`make raip` for pipx.
 
 ## List of errors
 
