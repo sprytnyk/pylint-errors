@@ -7,7 +7,7 @@ class TestPlErr(unittest.TestCase):
     def test_plerr_error_getter(self):
         # Given: a command to get a description of a pylint error by an
         # error code.
-        command = ['python', '-m', 'plerr', 'R1710']
+        command = ['python3', '-m', 'plerr', 'R1710']
 
         # When: the command invokes.
         proc = subprocess.Popen(
@@ -34,7 +34,7 @@ class TestPlErr(unittest.TestCase):
     def test_plerr_non_existent_error(self):
         # Given: a command to get a description of a pylint error with an
         # existent error code.
-        command = ['python', '-m', 'plerr', 'R0000']
+        command = ['python3', '-m', 'plerr', 'R0000']
 
         # When: the command invokes.
         proc = subprocess.Popen(
