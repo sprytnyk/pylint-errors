@@ -13,7 +13,7 @@ setuptools.setup(
     url='https://github.com/vald-phoenix/pylint-errors',
     packages=setuptools.find_packages(),
     install_requires=['Pygments'],
-    test_suite='plerr.tests',
+    test_suite='plerr.tests.test_package',
     python_requires='>=3.5',
     include_package_data=True,
     keywords=['pylint', 'errors', 'documentation'],

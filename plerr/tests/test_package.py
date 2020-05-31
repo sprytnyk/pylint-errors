@@ -1,9 +1,10 @@
+"""Tests a package installation on a user OS."""
 import pathlib
 import subprocess
 import unittest
 
 
-class TestPlErr(unittest.TestCase):
+class TestPlErrPackage(unittest.TestCase):
     def test_plerr_error_getter(self):
         # Given: a command to get a description of a pylint error by an
         # error code.
@@ -29,7 +30,6 @@ class TestPlErr(unittest.TestCase):
         assert stdout == expected_stdout
         assert not stderr
         assert proc.returncode == 0
-
 
     def test_plerr_non_existent_error(self):
         # Given: a command to get a description of a pylint error with an
