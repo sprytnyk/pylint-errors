@@ -37,11 +37,12 @@ such commands:
 
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
-$ sudo apt install python3-pip python3-venv # if not yet installed
+$ sudo apt install -y make python3-pip python3-venv # if not yet installed
 $ cd pylint-errors
 $ python3 -m pip install pipx wheel # install a package to build a wheel and pipx
 $ python3 -m pipx ensurepath # ensure directory where pipx stores apps is on PATH
 $ python3 setup.py test # run tests
+$ make clean
 $ python3 setup.py bdist_wheel # build a binary wheel
 $ pipx install dist/* # install a binary wheel by pipx
 $ plerr R1710
