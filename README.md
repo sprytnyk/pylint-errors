@@ -10,6 +10,8 @@ correct code.
 
 ## CLI usage
 
+![Example](media/example.svg)
+
 In order to use a CLI tool you need to invoke the following commands:
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
@@ -33,9 +35,6 @@ $ python3 setup.py bdist_wheel # build a binary wheel
 $ pipx install dist/* # install a binary wheel by pipx
 $ plerr R1710
 ```
-
-The last one command should produce this:
-![Example](media/example.svg)
 
 ## List of errors
 
