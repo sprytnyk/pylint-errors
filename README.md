@@ -11,10 +11,25 @@ correct code.
 In order to use a CLI tool you need to invoke the following commands:
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
+$ sudo apt update && sudo apt install -y python3-pip # if not yet installed
 $ cd pylint-errors
 $ python3 setup.py test
-$ python3 setup.py install
+$ python3 setup.py install --user
 $ python3 -m plerr R1710
+```
+
+[pipx](https://github.com/pipxproject/pipx) users may install the library by 
+such commands:
+```console
+$ git clone https://github.com/vald-phoenix/pylint-errors.git
+$ sudo apt install python3-pip python3-venv # if not yet installed
+$ cd pylint-errors
+$ python3 -m pip install pipx wheel # install a package to build a wheel and pipx
+$ python3 -m pipx ensurepath # ensure directory where pipx stores apps is on PATH
+$ python3 setup.py test # run tests
+$ python3 setup.py bdist_wheel # build a binary wheel
+$ pipx install dist/* # install a binary wheel by pipx
+$ plerr R1710
 ```
 
 The last one command should produce this:
