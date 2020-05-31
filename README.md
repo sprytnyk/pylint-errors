@@ -21,7 +21,8 @@ It's not required to install CLI util as long as you can navigate list of
 errors [here](#list-of-errors) or on this
 [web-site](https://vald-phoenix.github.io/pylint-errors/)
 but you may want to do so.  
-In order to use a CLI tool you need to invoke the following commands:
+In order to use `plerr` tool you need to invoke the following commands:
+
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
 $ sudo apt update && sudo apt install -y python3-pip # if not yet installed
@@ -31,8 +32,9 @@ $ python3 setup.py install --user
 $ python3 -m plerr R1710
 ```
 
-[pipx](https://github.com/pipxproject/pipx) users may install the library by 
+[pipx](https://github.com/pipxproject/pipx) users may install the library by
 such commands:
+
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
 $ sudo apt install python3-pip python3-venv # if not yet installed
@@ -51,7 +53,6 @@ will be introduced during the near time. When this project will
 become a more mature I will put it to PyPI.
 
 In order to get the latest updates just re-do the steps above.
-
 
 ## List of errors
 
