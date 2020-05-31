@@ -1,3 +1,4 @@
+"""CLI module."""
 import argparse
 import pathlib
 import sys
