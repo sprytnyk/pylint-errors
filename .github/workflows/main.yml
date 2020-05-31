@@ -20,7 +20,7 @@ jobs:
         set -ex
         python -VV
         python -m site
-        python -m pip install coverage
+        python -m pip install coverage Pygments
     - name: Run package build checks
       run: python setup.py test
     - name: Run package coverage checks
