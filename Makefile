@@ -1,14 +1,16 @@
-.PHONY: rai raip 
+.PHONY: clean rai raip 
 
-rai:
-	@echo "Rebuid and install plerr package."
-	@rm -rf build dis plerr.egg-info 2>/dev/null
+clean:
+	@echo "Cleaning up build related dirs..."
+	@rm -rf build dist plerr.egg-info 2>/dev/null
+
+rai: clean
+	@echo "Rebuilding and installing plerr package..."
 	@python3 -m pip uninstall -y plerr Pygments
 	@python3 setup.py install
 
-raip:
-	@echo "Rebuild and install plerr package to pipx."
-	@rm -rf build dis plerr.egg-info 2>/dev/null
+raip: clean
+	@echo "Rebuilding and installing plerr package to pipx..."
 	@python3 setup.py bdist_wheel
 	@python3 -m pipx uninstall plerr
-	@python3 -m pipx install -f dist/*
+	@pipx install -f dist/*
