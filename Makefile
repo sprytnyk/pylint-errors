@@ -8,7 +8,7 @@ rai: clean
 	@echo "Rebuilding and installing plerr package..."
 	@python3 -m pip uninstall -y plerr Pygments
 	@python3 setup.py test
-	@python3 setup.py install
+	@python3 setup.py install --user
 
 raip: clean
 	@echo "Rebuilding and installing plerr package to pipx..."
