@@ -15,6 +15,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+    - name: Install requirements
+      run: |
+        set -ex
+        python -VV
+        python -m site
+        python -m pip install coverage
     - name: Run package build checks
       run: python setup.py test
     - name: Run package coverage checks
