@@ -8,10 +8,19 @@
 A list of pylint-errors with reasoning and examples of erroneous and
 correct code.
 
+## Table of contents
+
+- [CLI usage](#cli-usage)
+- [List of errors](#list-of-errors)
+
 ## CLI usage
 
 ![Example](media/example.svg)
 
+It's not required to install CLI util as long as you can navigate list of
+errors [here](#list-of-errors) or on this
+[web-site](https://vald-phoenix.github.io/pylint-errors/)
+but you may want to do so.  
 In order to use a CLI tool you need to invoke the following commands:
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
@@ -35,6 +44,14 @@ $ python3 setup.py bdist_wheel # build a binary wheel
 $ pipx install dist/* # install a binary wheel by pipx
 $ plerr R1710
 ```
+
+P.S. This is not PyPI package yet because it's better to have up to the date
+documentation available through `plerr` CLI util and I expected many changes
+will be introduced during the near time. When this project will
+become a more mature I will put it to PyPI.
+
+In order to get the latest updates just re-do the steps above.
+
 
 ## List of errors
 
