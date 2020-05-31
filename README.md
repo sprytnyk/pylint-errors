@@ -61,8 +61,8 @@ Rationalisation provided for all entries.
 
 ### Async Checker Messages
 
-- [E1700 (yield-inside-async-function)](plerr/errors/async/E1700.md)
-- [E1701 (not-async-context-manager)](plerr/errors/async/E1701.md)
+- [E1700 (yield-inside-async-function)](plerr/errors/async/E1700.md) **[+]**
+- [E1701 (not-async-context-manager)](plerr/errors/async/E1701.md) **[+]**
 
 ### Basic Checker Messages
 
