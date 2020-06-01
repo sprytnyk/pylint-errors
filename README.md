@@ -72,9 +72,9 @@ Rationalisation provided for all entries.
 
 - [C0102 (blacklisted-name)](plerr/errors/basic/C0102.md) **[+]**
 - [C0103 (invalid-name)](plerr/errors/basic/C0103.md) **[+]**
-- [C0112 (empty-docstring)](plerr/errors/basic/C0112.md)
-- [C0114 (missing-module-docstring)](plerr/errors/basic/C0114.md)
-- [C0115 (missing-class-docstring)](plerr/errors/basic/C0115.md)
+- [C0112 (empty-docstring)](plerr/errors/basic/C0112.md) **[+]**
+- [C0114 (missing-module-docstring)](plerr/errors/basic/C0114.md) **[+]**
+- [C0115 (missing-class-docstring)](plerr/errors/basic/C0115.md) **[+]**
 - [C0116 (missing-function-docstring)](plerr/errors/basic/C0116.md) **[+]**
 - [C0121 (singleton-comparison)](plerr/errors/basic/C0121.md)
 - [C0122 (misplaced-comparison-constant)](plerr/errors/basic/C0122.md)
