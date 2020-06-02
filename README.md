@@ -76,17 +76,17 @@ Rationalisation provided for all entries.
 - [C0114 (missing-module-docstring)](plerr/errors/basic/C0114.md) **[+]**
 - [C0115 (missing-class-docstring)](plerr/errors/basic/C0115.md) **[+]**
 - [C0116 (missing-function-docstring)](plerr/errors/basic/C0116.md) **[+]**
-- [C0121 (singleton-comparison)](plerr/errors/basic/C0121.md)
-- [C0122 (misplaced-comparison-constant)](plerr/errors/basic/C0122.md)
-- [C0123 (unidiomatic-typecheck)](plerr/errors/basic/C0123.md)
-- [E0100 (init-is-generator)](plerr/errors/basic/E0100.md)
-- [E0101 (return-in-init)](plerr/errors/basic/E0101.md)
-- [E0102 (function-redefined)](plerr/errors/basic/E0102.md)
-- [E0103 (not-in-loop)](plerr/errors/basic/E0103.md)
-- [E0104 (return-outside-function)](plerr/errors/basic/E0104.md)
-- [E0105 (yield-outside-function)](plerr/errors/basic/E0105.md)
+- [C0121 (singleton-comparison)](plerr/errors/basic/C0121.md) **[+]**
+- [C0122 (misplaced-comparison-constant)](plerr/errors/basic/C0122.md) **[+]**
+- [C0123 (unidiomatic-typecheck)](plerr/errors/basic/C0123.md) **[+]**
+- [E0100 (init-is-generator)](plerr/errors/basic/E0100.md) **[+]**
+- [E0101 (return-in-init)](plerr/errors/basic/E0101.md) **[+]**
+- [E0102 (function-redefined)](plerr/errors/basic/E0102.md) **[+]**
+- [E0103 (not-in-loop)](plerr/errors/basic/E0103.md) **[+]**
+- [E0104 (return-outside-function)](plerr/errors/basic/E0104.md) **[+]**
+- [E0105 (yield-outside-function)](plerr/errors/basic/E0105.md) **[+]**
 - [E0106 (return-arg-in-generator)](plerr/errors/basic/E0106.md)
-- [E0107 (nonexistent-operator)](plerr/errors/basic/E0107.md)
+- [E0107 (nonexistent-operator)](plerr/errors/basic/E0107.md) **[+]**
 - [E0108 (duplicate-argument-name)](plerr/errors/basic/E0108.md)
 - [E0110 (abstract-class-instantiated)](plerr/errors/basic/E0110.md)
 - [E0111 (bad-reversed-sequence)](plerr/errors/basic/E0111.md)
