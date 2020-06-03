@@ -87,16 +87,16 @@ Rationalisation provided for all entries.
 - [E0105 (yield-outside-function)](plerr/errors/basic/E0105.md) **[+]**
 - [E0106 (return-arg-in-generator)](plerr/errors/basic/E0106.md)
 - [E0107 (nonexistent-operator)](plerr/errors/basic/E0107.md) **[+]**
-- [E0108 (duplicate-argument-name)](plerr/errors/basic/E0108.md)
-- [E0110 (abstract-class-instantiated)](plerr/errors/basic/E0110.md)
-- [E0111 (bad-reversed-sequence)](plerr/errors/basic/E0111.md)
-- [E0112 (too-many-star-expressions)](plerr/errors/basic/E0112.md)
-- [E0113 (invalid-star-assignment-target)](plerr/errors/basic/E0113.md)
-- [E0114 (star-needs-assignment-target)](plerr/errors/basic/E0114.md)
-- [E0115 (nonlocal-and-global)](plerr/errors/basic/E0115.md)
-- [E0116 (continue-in-finally)](plerr/errors/basic/E0116.md)
-- [E0117 (nonlocal-without-binding)](plerr/errors/basic/E0117.md)
-- [E0118 (used-prior-global-declaration)](plerr/errors/basic/E0118.md)
+- [E0108 (duplicate-argument-name)](plerr/errors/basic/E0108.md) **[+]**
+- [E0110 (abstract-class-instantiated)](plerr/errors/basic/E0110.md) **[+]**
+- [E0111 (bad-reversed-sequence)](plerr/errors/basic/E0111.md) **[+]**
+- [E0112 (too-many-star-expressions)](plerr/errors/basic/E0112.md) **[+]**
+- [E0113 (invalid-star-assignment-target)](plerr/errors/basic/E0113.md) **[+]**
+- [E0114 (star-needs-assignment-target)](plerr/errors/basic/E0114.md) **[+]**
+- [E0115 (nonlocal-and-global)](plerr/errors/basic/E0115.md) **[+]**
+- [E0116 (continue-in-finally)](plerr/errors/basic/E0116.md) **[+]**
+- [E0117 (nonlocal-without-binding)](plerr/errors/basic/E0117.md) **[+]**
+- [E0118 (used-prior-global-declaration)](plerr/errors/basic/E0118.md) **[+]**
 - [E0119 (misplaced-format-function)](plerr/errors/basic/E0119.md)
 - [R0123 (literal-comparison)](plerr/errors/basic/R0123.md)
 - [R0124 (comparison-with-itself)](plerr/errors/basic/R0124.md)
