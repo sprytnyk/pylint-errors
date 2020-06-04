@@ -97,19 +97,19 @@ Rationalisation provided for all entries.
 - [E0116 (continue-in-finally)](plerr/errors/basic/E0116.md) **[+]**
 - [E0117 (nonlocal-without-binding)](plerr/errors/basic/E0117.md) **[+]**
 - [E0118 (used-prior-global-declaration)](plerr/errors/basic/E0118.md) **[+]**
-- [E0119 (misplaced-format-function)](plerr/errors/basic/E0119.md)
-- [R0123 (literal-comparison)](plerr/errors/basic/R0123.md)
-- [R0124 (comparison-with-itself)](plerr/errors/basic/R0124.md)
-- [W0101 (unreachable)](plerr/errors/basic/W0101.md)
-- [W0102 (dangerous-default-value)](plerr/errors/basic/W0102.md)
-- [W0104 (pointless-statement)](plerr/errors/basic/W0104.md)
-- [W0105 (pointless-string-statement)](plerr/errors/basic/W0105.md)
-- [W0106 (expression-not-assigned)](plerr/errors/basic/W0106.md)
-- [W0107 (unnecessary-pass)](plerr/errors/basic/W0107.md)
-- [W0108 (unnecessary-lambda)](plerr/errors/basic/W0108.md)
-- [W0109 (duplicate-key)](plerr/errors/basic/W0109.md)
-- [W0111 (assign-to-new-keyword)](plerr/errors/basic/W0111.md)
-- [W0120 (useless-else-on-loop)](plerr/errors/basic/W0120.md)
+- [E0119 (misplaced-format-function)](plerr/errors/basic/E0119.md) **[+]**
+- [R0123 (literal-comparison)](plerr/errors/basic/R0123.md) **[+]**
+- [R0124 (comparison-with-itself)](plerr/errors/basic/R0124.md) **[+]**
+- [W0101 (unreachable)](plerr/errors/basic/W0101.md) **[+]**
+- [W0102 (dangerous-default-value)](plerr/errors/basic/W0102.md) **[+]**
+- [W0104 (pointless-statement)](plerr/errors/basic/W0104.md) **[+]**
+- [W0105 (pointless-string-statement)](plerr/errors/basic/W0105.md) **[+]**
+- [W0106 (expression-not-assigned)](plerr/errors/basic/W0106.md) **[+]**
+- [W0107 (unnecessary-pass)](plerr/errors/basic/W0107.md) **[+]**
+- [W0108 (unnecessary-lambda)](plerr/errors/basic/W0108.md) **[+]**
+- [W0109 (duplicate-key)](plerr/errors/basic/W0109.md) **[+]**
+- [W0111 (assign-to-new-keyword)](plerr/errors/basic/W0111.md) **[+]**
+- [W0120 (useless-else-on-loop)](plerr/errors/basic/W0120.md) **[+]**
 - [W0122 (exec-used)](plerr/errors/basic/W0122.md)
 - [W0123 (eval-used)](plerr/errors/basic/W0123.md)
 - [W0124 (confusing-with-statement)](plerr/errors/basic/W0124.md)
