@@ -110,16 +110,16 @@ Rationalisation provided for all entries.
 - [W0109 (duplicate-key)](plerr/errors/basic/W0109.md) **[+]**
 - [W0111 (assign-to-new-keyword)](plerr/errors/basic/W0111.md) **[+]**
 - [W0120 (useless-else-on-loop)](plerr/errors/basic/W0120.md) **[+]**
-- [W0122 (exec-used)](plerr/errors/basic/W0122.md)
-- [W0123 (eval-used)](plerr/errors/basic/W0123.md)
-- [W0124 (confusing-with-statement)](plerr/errors/basic/W0124.md)
+- [W0122 (exec-used)](plerr/errors/basic/W0122.md) **[+]**
+- [W0123 (eval-used)](plerr/errors/basic/W0123.md) **[+]**
+- [W0124 (confusing-with-statement)](plerr/errors/basic/W0124.md) **[+]**
 - [W0125 (using-constant-test)](plerr/errors/basic/W0125.md)
 - [W0126 (missing-parentheses-for-call-in-test)](plerr/errors/basic/W0126.md)
-- [W0127 (self-assigning-variable)](plerr/errors/basic/W0127.md)
+- [W0127 (self-assigning-variable)](plerr/errors/basic/W0127.md) **[+]**
 - [W0128 (redeclared-assigned-name)](plerr/errors/basic/W0128.md)
-- [W0143 (comparison-with-callable)](plerr/errors/basic/W0143.md)
-- [W0150 (lost-exception)](plerr/errors/basic/W0150.md)
-- [W0199 (assert-on-tuple)](plerr/errors/basic/W0199.md)
+- [W0143 (comparison-with-callable)](plerr/errors/basic/W0143.md) **[+]**
+- [W0150 (lost-exception)](plerr/errors/basic/W0150.md) **[+]**
+- [W0199 (assert-on-tuple)](plerr/errors/basic/W0199.md) **[+]**
 
 ### Broad Try Clause Checker Messages
 
