@@ -123,20 +123,20 @@ Rationalisation provided for all entries.
 
 ### Broad Try Clause Checker Messages
 
-- [W0717 (too-many-try-statements)](plerr/errors/broad-try-clause/W0717.md)
+- [W0717 (too-many-try-statements)](plerr/errors/broad-try-clause/W0717.md) **[+]**
 
 ### Classes Checker Messages
 
-- [C0202 (bad-classmethod-argument)](plerr/errors/classes/C0202.md)
-- [C0203 (bad-mcs-method-argument)](plerr/errors/classes/C0203.md)
-- [C0204 (bad-mcs-classmethod-argument)](plerr/errors/classes/C0204.md)
-- [C0205 (single-string-used-for-slots)](plerr/errors/classes/C0205.md)
-- [E0202 (method-hidden)](plerr/errors/classes/E0202.md)
-- [E0203 (access-member-before-definition)](plerr/errors/classes/E0203.md)
-- [E0211 (no-method-argument)](plerr/errors/classes/E0211.md)
-- [E0213 (no-self-argument)](plerr/errors/classes/E0213.md)
-- [E0236 (invalid-slots-object)](plerr/errors/classes/E0236.md)
-- [E0237 (assigning-non-slot)](plerr/errors/classes/E0237.md)
+- [C0202 (bad-classmethod-argument)](plerr/errors/classes/C0202.md) **[+]**
+- [C0203 (bad-mcs-method-argument)](plerr/errors/classes/C0203.md) **[+]**
+- [C0204 (bad-mcs-classmethod-argument)](plerr/errors/classes/C0204.md) **[+]**
+- [C0205 (single-string-used-for-slots)](plerr/errors/classes/C0205.md) **[+]**
+- [E0202 (method-hidden)](plerr/errors/classes/E0202.md) **[+]**
+- [E0203 (access-member-before-definition)](plerr/errors/classes/E0203.md) **[+]**
+- [E0211 (no-method-argument)](plerr/errors/classes/E0211.md) **[+]**
+- [E0213 (no-self-argument)](plerr/errors/classes/E0213.md) **[+]**
+- [E0236 (invalid-slots-object)](plerr/errors/classes/E0236.md) **[+]**
+- [E0237 (assigning-non-slot)](plerr/errors/classes/E0237.md) **[+]**
 - [E0238 (invalid-slots)](plerr/errors/classes/E0238.md)
 - [E0239 (inherit-non-class)](plerr/errors/classes/E0239.md)
 - [E0240 (inconsistent-mro)](plerr/errors/classes/E0240.md)
