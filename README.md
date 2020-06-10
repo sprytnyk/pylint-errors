@@ -123,7 +123,7 @@ Rationalisation provided for all entries.
 
 ### Broad Try Clause Checker Messages
 
-- [W0717 (too-many-try-statements)](plerr/errors/broad-try-clause/W0717.md) **[+]**
+- [W0717 (too-many-try-statements)](plerr/errors/broad-try-clause/W0717.md)
 
 ### Classes Checker Messages
 
