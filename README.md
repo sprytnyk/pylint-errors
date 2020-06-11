@@ -137,17 +137,17 @@ Rationalisation provided for all entries.
 - [E0213 (no-self-argument)](plerr/errors/classes/E0213.md) **[+]**
 - [E0236 (invalid-slots-object)](plerr/errors/classes/E0236.md) **[+]**
 - [E0237 (assigning-non-slot)](plerr/errors/classes/E0237.md) **[+]**
-- [E0238 (invalid-slots)](plerr/errors/classes/E0238.md)
-- [E0239 (inherit-non-class)](plerr/errors/classes/E0239.md)
-- [E0240 (inconsistent-mro)](plerr/errors/classes/E0240.md)
-- [E0241 (duplicate-bases)](plerr/errors/classes/E0241.md)
-- [E0242 (class-variable-slots-conflict)](plerr/errors/classes/E0242.md)
-- [E0301 (non-iterator-returned)](plerr/errors/classes/E0301.md)
-- [E0302 (unexpected-special-method-signature)](plerr/errors/classes/E0302.md)
-- [E0303 (invalid-length-returned)](plerr/errors/classes/E0303.md)
+- [E0238 (invalid-slots)](plerr/errors/classes/E0238.md) **[+]**
+- [E0239 (inherit-non-class)](plerr/errors/classes/E0239.md) **[+]**
+- [E0240 (inconsistent-mro)](plerr/errors/classes/E0240.md) **[+]**
+- [E0241 (duplicate-bases)](plerr/errors/classes/E0241.md) **[+]**
+- [E0242 (class-variable-slots-conflict)](plerr/errors/classes/E0242.md) **[+]**
+- [E0301 (non-iterator-returned)](plerr/errors/classes/E0301.md) **[+]**
+- [E0302 (unexpected-special-method-signature)](plerr/errors/classes/E0302.md) **[+]**
+- [E0303 (invalid-length-returned)](plerr/errors/classes/E0303.md) **[+]**
 - [F0202 (method-check-failed)](plerr/errors/classes/F0202.md)
-- [R0201 (no-self-use)](plerr/errors/classes/R0201.md)
-- [R0202 (no-classmethod-decorator)](plerr/errors/classes/R0202.md)
+- [R0201 (no-self-use)](plerr/errors/classes/R0201.md)  **[+]**
+- [R0202 (no-classmethod-decorator)](plerr/errors/classes/R0202.md) **[+]**
 - [R0203 (no-staticmethod-decorator)](plerr/errors/classes/R0203.md)
 - [R0205 (useless-object-inheritance)](plerr/errors/classes/R0205.md) **[+]**
 - [R0206 (property-with-parameters)](plerr/errors/classes/R0206.md)
