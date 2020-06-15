@@ -148,18 +148,18 @@ Rationalisation provided for all entries.
 - [F0202 (method-check-failed)](plerr/errors/classes/F0202.md)
 - [R0201 (no-self-use)](plerr/errors/classes/R0201.md)  **[+]**
 - [R0202 (no-classmethod-decorator)](plerr/errors/classes/R0202.md) **[+]**
-- [R0203 (no-staticmethod-decorator)](plerr/errors/classes/R0203.md)
+- [R0203 (no-staticmethod-decorator)](plerr/errors/classes/R0203.md) **[+]**
 - [R0205 (useless-object-inheritance)](plerr/errors/classes/R0205.md) **[+]**
-- [R0206 (property-with-parameters)](plerr/errors/classes/R0206.md)
-- [W0201 (attribute-defined-outside-init)](plerr/errors/classes/W0201.md)
-- [W0211 (bad-staticmethod-argument)](plerr/errors/classes/W0211.md)
-- [W0212 (protected-access)](plerr/errors/classes/W0212.md)
-- [W0221 (arguments-differ)](plerr/errors/classes/W0221.md)
+- [R0206 (property-with-parameters)](plerr/errors/classes/R0206.md) **[+]**
+- [W0201 (attribute-defined-outside-init)](plerr/errors/classes/W0201.md) **[+]**
+- [W0211 (bad-staticmethod-argument)](plerr/errors/classes/W0211.md) **[+]**
+- [W0212 (protected-access)](plerr/errors/classes/W0212.md) **[+]**
+- [W0221 (arguments-differ)](plerr/errors/classes/W0221.md) **[+]**
 - [W0222 (signature-differs)](plerr/errors/classes/W0222.md)
-- [W0223 (abstract-method)](plerr/errors/classes/W0223.md)
-- [W0231 (super-init-not-called)](plerr/errors/classes/W0231.md)
-- [W0232 (no-init)](plerr/errors/classes/W0232.md)
-- [W0233 (non-parent-init-called)](plerr/errors/classes/W0233.md)
+- [W0223 (abstract-method)](plerr/errors/classes/W0223.md) **[+]**
+- [W0231 (super-init-not-called)](plerr/errors/classes/W0231.md) **[+]**
+- [W0232 (no-init)](plerr/errors/classes/W0232.md) **[+]**
+- [W0233 (non-parent-init-called)](plerr/errors/classes/W0233.md) **[+]**
 - [W0235 (useless-super-delegation)](plerr/errors/classes/W0235.md)
 - [W0236 (invalid-overridden-method)](plerr/errors/classes/W0236.md)
 
