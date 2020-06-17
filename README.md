@@ -160,29 +160,29 @@ Rationalisation provided for all entries.
 - [W0231 (super-init-not-called)](plerr/errors/classes/W0231.md) **[+]**
 - [W0232 (no-init)](plerr/errors/classes/W0232.md) **[+]**
 - [W0233 (non-parent-init-called)](plerr/errors/classes/W0233.md) **[+]**
-- [W0235 (useless-super-delegation)](plerr/errors/classes/W0235.md)
-- [W0236 (invalid-overridden-method)](plerr/errors/classes/W0236.md)
+- [W0235 (useless-super-delegation)](plerr/errors/classes/W0235.md) **[+]**
+- [W0236 (invalid-overridden-method)](plerr/errors/classes/W0236.md) **[+]**
 
 ### Compare-To-Empty-String Checker Messages
 
-- [C1901 (compare-to-empty-string)](plerr/errors/compare-to-empty-string/C1901.md)
+- [C1901 (compare-to-empty-string)](plerr/errors/compare-to-empty-string/C1901.md) **[+]**
 
 ### Compare-To-Zero Checker Messages
 
-- [C2001 (compare-to-zero)](plerr/errors/compare-to-zero/C2001.md)
+- [C2001 (compare-to-zero)](plerr/errors/compare-to-zero/C2001.md) **[+]**
 
 ### Deprecated Builtins Checker Messages
 
-- [W0141 (bad-builtin)](plerr/errors/deprecated-builtins/W0141.md)
+- [W0141 (bad-builtin)](plerr/errors/deprecated-builtins/W0141.md) **[+]**
 
 ### Design Checker Messages
 
-- [R0901 (too-many-ancestors)](plerr/errors/design/R0901.md)
-- [R0902 (too-many-instance-attributes)](plerr/errors/design/R0902.md)
+- [R0901 (too-many-ancestors)](plerr/errors/design/R0901.md) **[+]**
+- [R0902 (too-many-instance-attributes)](plerr/errors/design/R0902.md) **[+]**
 - [R0903 (too-few-public-methods)](plerr/errors/design/R0903.md) **[+]**
-- [R0904 (too-many-public-methods)](plerr/errors/design/R0904.md)
-- [R0911 (too-many-return-statements)](plerr/errors/design/R0911.md)
-- [R0912 (too-many-branches)](plerr/errors/design/R0912.md)
+- [R0904 (too-many-public-methods)](plerr/errors/design/R0904.md) **[+]**
+- [R0911 (too-many-return-statements)](plerr/errors/design/R0911.md) **[+]**
+- [R0912 (too-many-branches)](plerr/errors/design/R0912.md) **[+]**
 - [R0913 (too-many-arguments)](plerr/errors/design/R0913.md)
 - [R0914 (too-many-locals)](plerr/errors/design/R0914.md)
 - [R0915 (too-many-statements)](plerr/errors/design/R0915.md)
