@@ -183,25 +183,25 @@ Rationalisation provided for all entries.
 - [R0904 (too-many-public-methods)](plerr/errors/design/R0904.md) **[+]**
 - [R0911 (too-many-return-statements)](plerr/errors/design/R0911.md) **[+]**
 - [R0912 (too-many-branches)](plerr/errors/design/R0912.md) **[+]**
-- [R0913 (too-many-arguments)](plerr/errors/design/R0913.md)
-- [R0914 (too-many-locals)](plerr/errors/design/R0914.md)
-- [R0915 (too-many-statements)](plerr/errors/design/R0915.md)
-- [R0916 (too-many-boolean-expressions)](plerr/errors/design/R0916.md)
-- [R1260 (too-complex)](plerr/errors/design/R1260.md)
+- [R0913 (too-many-arguments)](plerr/errors/design/R0913.md) **[+]**
+- [R0914 (too-many-locals)](plerr/errors/design/R0914.md) **[+]**
+- [R0915 (too-many-statements)](plerr/errors/design/R0915.md) **[+]**
+- [R0916 (too-many-boolean-expressions)](plerr/errors/design/R0916.md) **[+]**
+- [R1260 (too-complex)](plerr/errors/design/R1260.md) **[+]**
 
 ### Docstyle Checker Messages
 
-- [C0198 (bad-docstring-quotes)](plerr/errors/docstyle/C0198.md)
-- [C0199 (docstring-first-line-empty)](plerr/errors/docstyle/C0199.md)
+- [C0198 (bad-docstring-quotes)](plerr/errors/docstyle/C0198.md) **[+]**
+- [C0199 (docstring-first-line-empty)](plerr/errors/docstyle/C0199.md) **[+]**
 
 ### Else If Used Checker Messages
 
-- [R5501 (else-if-used)](plerr/errors/else-if-used/R5501.md)
+- [R5501 (else-if-used)](plerr/errors/else-if-used/R5501.md) **[+]**
 
 ### Exceptions Checker Messages
 
-- [E0701 (bad-except-order)](plerr/errors/exceptions/E0701.md)
-- [E0702 (raising-bad-type)](plerr/errors/exceptions/E0702.md)
+- [E0701 (bad-except-order)](plerr/errors/exceptions/E0701.md) **[+]**
+- [E0702 (raising-bad-type)](plerr/errors/exceptions/E0702.md) **[+]**
 - [E0703 (bad-exception-context)](plerr/errors/exceptions/E0703.md)
 - [E0704 (misplaced-bare-raise)](plerr/errors/exceptions/E0704.md)
 - [E0710 (raising-non-exception)](plerr/errors/exceptions/E0710.md)
