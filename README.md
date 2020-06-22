@@ -202,16 +202,16 @@ Rationalisation provided for all entries.
 
 - [E0701 (bad-except-order)](plerr/errors/exceptions/E0701.md) **[+]**
 - [E0702 (raising-bad-type)](plerr/errors/exceptions/E0702.md) **[+]**
-- [E0703 (bad-exception-context)](plerr/errors/exceptions/E0703.md)
-- [E0704 (misplaced-bare-raise)](plerr/errors/exceptions/E0704.md)
-- [E0710 (raising-non-exception)](plerr/errors/exceptions/E0710.md)
-- [E0711 (notimplemented-raised)](plerr/errors/exceptions/E0711.md)
-- [E0712 (catching-non-exception)](plerr/errors/exceptions/E0712.md)
-- [W0702 (bare-except)](plerr/errors/exceptions/W0702.md)
-- [W0703 (broad-except)](plerr/errors/exceptions/W0703.md)
-- [W0705 (duplicate-except)](plerr/errors/exceptions/W0705.md)
-- [W0706 (try-except-raise)](plerr/errors/exceptions/W0706.md)
-- [W0711 (binary-op-exception)](plerr/errors/exceptions/W0711.md)
+- [E0703 (bad-exception-context)](plerr/errors/exceptions/E0703.md) **[+]**
+- [E0704 (misplaced-bare-raise)](plerr/errors/exceptions/E0704.md) **[+]**
+- [E0710 (raising-non-exception)](plerr/errors/exceptions/E0710.md) **[+]**
+- [E0711 (notimplemented-raised)](plerr/errors/exceptions/E0711.md) **[+]**
+- [E0712 (catching-non-exception)](plerr/errors/exceptions/E0712.md) **[+]**
+- [W0702 (bare-except)](plerr/errors/exceptions/W0702.md) **[+]**
+- [W0703 (broad-except)](plerr/errors/exceptions/W0703.md) **[+]**
+- [W0705 (duplicate-except)](plerr/errors/exceptions/W0705.md) **[+]**
+- [W0706 (try-except-raise)](plerr/errors/exceptions/W0706.md) **[+]**
+- [W0711 (binary-op-exception)](plerr/errors/exceptions/W0711.md) **[+]**
 - [W0715 (raising-format-tuple)](plerr/errors/exceptions/W0715.md)
 - [W0716 (wrong-exception-operation)](plerr/errors/exceptions/W0716.md)
 
