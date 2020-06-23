@@ -213,29 +213,29 @@ Rationalisation provided for all entries.
 - [W0706 (try-except-raise)](plerr/errors/exceptions/W0706.md) **[+]**
 - [W0711 (binary-op-exception)](plerr/errors/exceptions/W0711.md) **[+]**
 - [W0715 (raising-format-tuple)](plerr/errors/exceptions/W0715.md)
-- [W0716 (wrong-exception-operation)](plerr/errors/exceptions/W0716.md)
+- [W0716 (wrong-exception-operation)](plerr/errors/exceptions/W0716.md) **[+]**
 
 ### Format Checker Messages
 
-- [C0301 (line-too-long)](plerr/errors/format/C0301.md)
+- [C0301 (line-too-long)](plerr/errors/format/C0301.md) **[+]**
 - [C0302 (too-many-lines)](plerr/errors/format/C0302.md)
-- [C0303 (trailing-whitespace)](plerr/errors/format/C0303.md)
+- [C0303 (trailing-whitespace)](plerr/errors/format/C0303.md) **[+]**
 - [C0304 (missing-final-newline)](plerr/errors/format/C0304.md)
 - [C0305 (trailing-newlines)](plerr/errors/format/C0305.md)
-- [C0321 (multiple-statements)](plerr/errors/format/C0321.md)
-- [C0325 (superfluous-parens)](plerr/errors/format/C0325.md)
-- [C0326 (bad-whitespace)](plerr/errors/format/C0326.md)
+- [C0321 (multiple-statements)](plerr/errors/format/C0321.md) **[+]**
+- [C0325 (superfluous-parens)](plerr/errors/format/C0325.md) **[+]**
+- [C0326 (bad-whitespace)](plerr/errors/format/C0326.md) **[+]**
 - [C0327 (mixed-line-endings)](plerr/errors/format/C0327.md)
 - [C0328 (unexpected-line-ending-format)](plerr/errors/format/C0328.md)
 - [C0330 (bad-continuation)](plerr/errors/format/C0330.md)
-- [W0301 (unnecessary-semicolon)](plerr/errors/format/W0301.md)
-- [W0311 (bad-indentation)](plerr/errors/format/W0311.md)
+- [W0301 (unnecessary-semicolon)](plerr/errors/format/W0301.md) **[+]**
+- [W0311 (bad-indentation)](plerr/errors/format/W0311.md) **[+]**
 - [W0312 (mixed-indentation)](plerr/errors/format/W0312.md)
 
 ### Imports Checker Messages
 
-- [C0410 (multiple-imports)](plerr/errors/imports/C0410.md)
-- [C0411 (wrong-import-order)](plerr/errors/imports/C0411.md)
+- [C0410 (multiple-imports)](plerr/errors/imports/C0410.md) **[+]**
+- [C0411 (wrong-import-order)](plerr/errors/imports/C0411.md) **[+]**
 - [C0412 (ungrouped-imports)](plerr/errors/imports/C0412.md)
 - [C0413 (wrong-import-position)](plerr/errors/imports/C0413.md)
 - [C0414 (useless-import-alias)](plerr/errors/imports/C0414.md)
