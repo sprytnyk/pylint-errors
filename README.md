@@ -236,16 +236,16 @@ Rationalisation provided for all entries.
 
 - [C0410 (multiple-imports)](plerr/errors/imports/C0410.md) **[+]**
 - [C0411 (wrong-import-order)](plerr/errors/imports/C0411.md) **[+]**
-- [C0412 (ungrouped-imports)](plerr/errors/imports/C0412.md)
-- [C0413 (wrong-import-position)](plerr/errors/imports/C0413.md)
-- [C0414 (useless-import-alias)](plerr/errors/imports/C0414.md)
-- [C0415 (import-outside-toplevel)](plerr/errors/imports/C0415.md)
-- [E0401 (import-error)](plerr/errors/imports/E0401.md)
-- [E0402 (relative-beyond-top-level)](plerr/errors/imports/E0402.md)
-- [R0401 (cyclic-import)](plerr/errors/imports/R0401.md)
-- [W0401 (wildcard-import)](plerr/errors/imports/W0401.md)
-- [W0402 (deprecated-module)](plerr/errors/imports/W0402.md)
-- [W0404 (reimported)](plerr/errors/imports/W0404.md)
+- [C0412 (ungrouped-imports)](plerr/errors/imports/C0412.md) **[+]**
+- [C0413 (wrong-import-position)](plerr/errors/imports/C0413.md) **[+]**
+- [C0414 (useless-import-alias)](plerr/errors/imports/C0414.md) **[+]**
+- [C0415 (import-outside-toplevel)](plerr/errors/imports/C0415.md) **[+]**
+- [E0401 (import-error)](plerr/errors/imports/E0401.md) **[+]**
+- [E0402 (relative-beyond-top-level)](plerr/errors/imports/E0402.md) **[+]**
+- [R0401 (cyclic-import)](plerr/errors/imports/R0401.md) **[+]**
+- [W0401 (wildcard-import)](plerr/errors/imports/W0401.md) **[+]**
+- [W0402 (deprecated-module)](plerr/errors/imports/W0402.md) **[+]**
+- [W0404 (reimported)](plerr/errors/imports/W0404.md) **[+]**
 - [W0406 (import-self)](plerr/errors/imports/W0406.md)
 - [W0407 (preferred-module)](plerr/errors/imports/W0407.md)
 - [W0410 (misplaced-future)](plerr/errors/imports/W0410.md)
