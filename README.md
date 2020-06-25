@@ -246,9 +246,9 @@ Rationalisation provided for all entries.
 - [W0401 (wildcard-import)](plerr/errors/imports/W0401.md) **[+]**
 - [W0402 (deprecated-module)](plerr/errors/imports/W0402.md) **[+]**
 - [W0404 (reimported)](plerr/errors/imports/W0404.md) **[+]**
-- [W0406 (import-self)](plerr/errors/imports/W0406.md)
-- [W0407 (preferred-module)](plerr/errors/imports/W0407.md)
-- [W0410 (misplaced-future)](plerr/errors/imports/W0410.md)
+- [W0406 (import-self)](plerr/errors/imports/W0406.md) **[+]**
+- [W0407 (preferred-module)](plerr/errors/imports/W0407.md) **[+]**
+- [W0410 (misplaced-future)](plerr/errors/imports/W0410.md) **[+]**
 
 ### Logging Checker Messages
 
@@ -256,13 +256,13 @@ Rationalisation provided for all entries.
 - [E1201 (logging-format-truncated)](plerr/errors/logging/E1201.md)
 - [E1205 (logging-too-many-args)](plerr/errors/logging/E1205.md)
 - [E1206 (logging-too-few-args)](plerr/errors/logging/E1206.md)
-- [W1201 (logging-not-lazy)](plerr/errors/logging/W1201.md)
-- [W1202 (logging-format-interpolation)](plerr/errors/logging/W1202.md)
+- [W1201 (logging-not-lazy)](plerr/errors/logging/W1201.md) **[+]**
+- [W1202 (logging-format-interpolation)](plerr/errors/logging/W1202.md) **[+]**
 
 ### Miscellaneous Checker Messages
 
 - [I0023 (use-symbolic-message-instead)](plerr/errors/miscellaneous/I0023.md)
-- [W0511 (fixme)](plerr/errors/miscellaneous/W0511.md)
+- [W0511 (fixme)](plerr/errors/miscellaneous/W0511.md) **[+]**
 
 ### Multiple Types Checker Messages
 
@@ -270,7 +270,7 @@ Rationalisation provided for all entries.
 
 ### Newstyle Checker Messages
 
-- [E1003 (bad-super-call)](plerr/errors/newstyle/E1003.md)
+- [E1003 (bad-super-call)](plerr/errors/newstyle/E1003.md) **[+]**
 
 ### Overlap-Except Checker Messages
 
