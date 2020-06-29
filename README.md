@@ -278,27 +278,27 @@ Rationalisation provided for all entries.
 
 ### Parameter Documentation Checker Messages
 
-- [W9005 (multiple-constructor-doc)](plerr/errors/parameter-documentation/W9005.md)
-- [W9006 (missing-raises-doc)](plerr/errors/parameter-documentation/W9006.md)
+- [W9005 (multiple-constructor-doc)](plerr/errors/parameter-documentation/W9005.md) **[+]**
+- [W9006 (missing-raises-doc)](plerr/errors/parameter-documentation/W9006.md) **[+]**
 - [W9008 (redundant-returns-doc)](plerr/errors/parameter-documentation/W9008.md)
 - [W9010 (redundant-yields-doc)](plerr/errors/parameter-documentation/W9010.md)
-- [W9011 (missing-return-doc)](plerr/errors/parameter-documentation/W9011.md)
-- [W9012 (missing-return-type-doc)](plerr/errors/parameter-documentation/W9012.md)
+- [W9011 (missing-return-doc)](plerr/errors/parameter-documentation/W9011.md) **[+]**
+- [W9012 (missing-return-type-doc)](plerr/errors/parameter-documentation/W9012.md) **[+]**
 - [W9013 (missing-yield-doc)](plerr/errors/parameter-documentation/W9013.md)
 - [W9014 (missing-yield-type-doc)](plerr/errors/parameter-documentation/W9014.md)
-- [W9015 (missing-param-doc)](plerr/errors/parameter-documentation/W9015.md)
-- [W9016 (missing-type-doc)](plerr/errors/parameter-documentation/W9016.md)
-- [W9017 (differing-param-doc)](plerr/errors/parameter-documentation/W9017.md)
-- [W9018 (differing-type-doc)](plerr/errors/parameter-documentation/W9018.md)
+- [W9015 (missing-param-doc)](plerr/errors/parameter-documentation/W9015.md) **[+]**
+- [W9016 (missing-type-doc)](plerr/errors/parameter-documentation/W9016.md) **[+]**
+- [W9017 (differing-param-doc)](plerr/errors/parameter-documentation/W9017.md) **[+]**
+- [W9018 (differing-type-doc)](plerr/errors/parameter-documentation/W9018.md) **[+]**
 
 ### Python3 Checker Messages
 
-- [E1601 (print-statement)](plerr/errors/python3/E1601.md)
+- [E1601 (print-statement)](plerr/errors/python3/E1601.md) **[+]**
 - [E1602 (parameter-unpacking)](plerr/errors/python3/E1602.md)
 - [E1603 (unpacking-in-except)](plerr/errors/python3/E1603.md)
 - [E1604 (old-raise-syntax)](plerr/errors/python3/E1604.md)
 - [E1605 (backtick)](plerr/errors/python3/E1605.md)
-- [E1606 (long-suffix)](plerr/errors/python3/E1606.md)
+- [E1606 (long-suffix)](plerr/errors/python3/E1606.md) **[+]**
 - [E1607 (old-ne-operator)](plerr/errors/python3/E1607.md)
 - [E1608 (old-octal-literal)](plerr/errors/python3/E1608.md)
 - [E1609 (import-star-module-level)](plerr/errors/python3/E1609.md)
