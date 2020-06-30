@@ -310,24 +310,24 @@ Rationalisation provided for all entries.
 - [W1605 (coerce-builtin)](plerr/errors/python3/W1605.md)
 - [W1606 (execfile-builtin)](plerr/errors/python3/W1606.md)
 - [W1607 (file-builtin)](plerr/errors/python3/W1607.md)
-- [W1608 (long-builtin)](plerr/errors/python3/W1608.md)
-- [W1610 (reduce-builtin)](plerr/errors/python3/W1610.md)
-- [W1611 (standarderror-builtin)](plerr/errors/python3/W1611.md)
-- [W1612 (unicode-builtin)](plerr/errors/python3/W1612.md)
-- [W1613 (xrange-builtin)](plerr/errors/python3/W1613.md)
+- [W1608 (long-builtin)](plerr/errors/python3/W1608.md) **[+]**
+- [W1610 (reduce-builtin)](plerr/errors/python3/W1610.md) **[+]**
+- [W1611 (standarderror-builtin)](plerr/errors/python3/W1611.md) **[+]**
+- [W1612 (unicode-builtin)](plerr/errors/python3/W1612.md) **[+]**
+- [W1613 (xrange-builtin)](plerr/errors/python3/W1613.md) **[+]**
 - [W1614 (coerce-method)](plerr/errors/python3/W1614.md)
 - [W1615 (delslice-method)](plerr/errors/python3/W1615.md)
 - [W1616 (getslice-method)](plerr/errors/python3/W1616.md)
 - [W1617 (setslice-method)](plerr/errors/python3/W1617.md)
 - [W1618 (no-absolute-import)](plerr/errors/python3/W1618.md)
 - [W1619 (old-division)](plerr/errors/python3/W1619.md)
-- [W1620 (dict-iter-method)](plerr/errors/python3/W1620.md)
-- [W1621 (dict-view-method)](plerr/errors/python3/W1621.md)
-- [W1622 (next-method-called)](plerr/errors/python3/W1622.md)
-- [W1623 (metaclass-assignment)](plerr/errors/python3/W1623.md)
+- [W1620 (dict-iter-method)](plerr/errors/python3/W1620.md) **[+]**
+- [W1621 (dict-view-method)](plerr/errors/python3/W1621.md) **[+]**
+- [W1622 (next-method-called)](plerr/errors/python3/W1622.md) **[+]**
+- [W1623 (metaclass-assignment)](plerr/errors/python3/W1623.md) **[+]**
 - [W1624 (indexing-exception)](plerr/errors/python3/W1624.md)
 - [W1625 (raising-string)](plerr/errors/python3/W1625.md)
-- [W1626 (reload-builtin)](plerr/errors/python3/W1626.md)
+- [W1626 (reload-builtin)](plerr/errors/python3/W1626.md) **[+]**
 - [W1627 (oct-method)](plerr/errors/python3/W1627.md)
 - [W1628 (hex-method)](plerr/errors/python3/W1628.md)
 - [W1629 (nonzero-method)](plerr/errors/python3/W1629.md)
