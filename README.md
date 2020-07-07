@@ -293,24 +293,24 @@ Rationalisation provided for all entries.
 
 ### Refactoring Checker Messages
 
-- [C0113 (unneeded-not)](plerr/errors/refactoring/C0113.md)
-- [C0200 (consider-using-enumerate)](plerr/errors/refactoring/C0200.md)
-- [C0201 (consider-iterating-dictionary)](plerr/errors/refactoring/C0201.md)
-- [C1801 (len-as-condition)](plerr/errors/refactoring/C1801.md)
+- [C0113 (unneeded-not)](plerr/errors/refactoring/C0113.md) **[+]**
+- [C0200 (consider-using-enumerate)](plerr/errors/refactoring/C0200.md) **[+]**
+- [C0201 (consider-iterating-dictionary)](plerr/errors/refactoring/C0201.md) **[+]**
+- [C1801 (len-as-condition)](plerr/errors/refactoring/C1801.md) **[+]**
 - [R1701 (consider-merging-isinstance)](plerr/errors/refactoring/R1701.md)
 - [R1702 (too-many-nested-blocks)](plerr/errors/refactoring/R1702.md)
 - [R1703 (simplifiable-if-statement)](plerr/errors/refactoring/R1703.md)
 - [R1704 (redefined-argument-from-local)](plerr/errors/refactoring/R1704.md)
 - [R1705 (no-else-return)](plerr/errors/refactoring/R1705.md) **[+]**
 - [R1706 (consider-using-ternary)](plerr/errors/refactoring/R1706.md)
-- [R1707 (trailing-comma-tuple)](plerr/errors/refactoring/R1707.md)
-- [R1708 (stop-iteration-return)](plerr/errors/refactoring/R1708.md)
+- [R1707 (trailing-comma-tuple)](plerr/errors/refactoring/R1707.md) **[+]**
+- [R1708 (stop-iteration-return)](plerr/errors/refactoring/R1708.md) **[+]**
 - [R1709 (simplify-boolean-expression)](plerr/errors/refactoring/R1709.md)
 - [R1710 (inconsistent-return-statements)](plerr/errors/refactoring/R1710.md) **[+]**
-- [R1711 (useless-return)](plerr/errors/refactoring/R1711.md)
-- [R1712 (consider-swap-variables)](plerr/errors/refactoring/R1712.md)
-- [R1713 (consider-using-join)](plerr/errors/refactoring/R1713.md)
-- [R1714 (consider-using-in)](plerr/errors/refactoring/R1714.md)
+- [R1711 (useless-return)](plerr/errors/refactoring/R1711.md) **[+]**
+- [R1712 (consider-swap-variables)](plerr/errors/refactoring/R1712.md) **[+]**
+- [R1713 (consider-using-join)](plerr/errors/refactoring/R1713.md) **[+]**
+- [R1714 (consider-using-in)](plerr/errors/refactoring/R1714.md) **[+]**
 - [R1715 (consider-using-get)](plerr/errors/refactoring/R1715.md)
 - [R1716 (chained-comparison)](plerr/errors/refactoring/R1716.md)
 - [R1717 (consider-using-dict-comprehension)](plerr/errors/refactoring/R1717.md)
