@@ -312,15 +312,15 @@ Rationalisation provided for all entries.
 - [R1713 (consider-using-join)](plerr/errors/refactoring/R1713.md) **[+]**
 - [R1714 (consider-using-in)](plerr/errors/refactoring/R1714.md) **[+]**
 - [R1715 (consider-using-get)](plerr/errors/refactoring/R1715.md)
-- [R1716 (chained-comparison)](plerr/errors/refactoring/R1716.md)
+- [R1716 (chained-comparison)](plerr/errors/refactoring/R1716.md) **[+]**
 - [R1717 (consider-using-dict-comprehension)](plerr/errors/refactoring/R1717.md)
 - [R1718 (consider-using-set-comprehension)](plerr/errors/refactoring/R1718.md)
-- [R1719 (simplifiable-if-expression)](plerr/errors/refactoring/R1719.md)
-- [R1720 (no-else-raise)](plerr/errors/refactoring/R1720.md)
+- [R1719 (simplifiable-if-expression)](plerr/errors/refactoring/R1719.md) **[+]**
+- [R1720 (no-else-raise)](plerr/errors/refactoring/R1720.md) **[+]**
 - [R1721 (unnecessary-comprehension)](plerr/errors/refactoring/R1721.md)
-- [R1722 (consider-using-sys-exit)](plerr/errors/refactoring/R1722.md)
-- [R1723 (no-else-break)](plerr/errors/refactoring/R1723.md)
-- [R1724 (no-else-continue)](plerr/errors/refactoring/R1724.md)
+- [R1722 (consider-using-sys-exit)](plerr/errors/refactoring/R1722.md) **[+]**
+- [R1723 (no-else-break)](plerr/errors/refactoring/R1723.md) **[+]**
+- [R1724 (no-else-continue)](plerr/errors/refactoring/R1724.md) **[+]**
 
 ### Similarities Checker Messages
 
@@ -334,12 +334,12 @@ Rationalisation provided for all entries.
 
 ### Stdlib Checker Messages
 
-- [E1507 (invalid-envvar-value)](plerr/errors/stdlib/E1507.md)
-- [W1501 (bad-open-mode)](plerr/errors/stdlib/W1501.md)
+- [E1507 (invalid-envvar-value)](plerr/errors/stdlib/E1507.md) **[+]**
+- [W1501 (bad-open-mode)](plerr/errors/stdlib/W1501.md) **[+]**
 - [W1502 (boolean-datetime)](plerr/errors/stdlib/W1502.md)
-- [W1503 (redundant-unittest-assert)](plerr/errors/stdlib/W1503.md)
+- [W1503 (redundant-unittest-assert)](plerr/errors/stdlib/W1503.md) **[+]**
 - [W1505 (deprecated-method)](plerr/errors/stdlib/W1505.md)
-- [W1506 (bad-thread-instantiation)](plerr/errors/stdlib/W1506.md)
+- [W1506 (bad-thread-instantiation)](plerr/errors/stdlib/W1506.md) **[+]**
 - [W1507 (shallow-copy-environ)](plerr/errors/stdlib/W1507.md)
 - [W1508 (invalid-envvar-default)](plerr/errors/stdlib/W1508.md)
 - [W1509 (subprocess-popen-preexec-fn)](plerr/errors/stdlib/W1509.md)
