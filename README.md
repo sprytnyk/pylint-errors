@@ -340,10 +340,10 @@ Rationalisation provided for all entries.
 - [W1503 (redundant-unittest-assert)](plerr/errors/stdlib/W1503.md) **[+]**
 - [W1505 (deprecated-method)](plerr/errors/stdlib/W1505.md)
 - [W1506 (bad-thread-instantiation)](plerr/errors/stdlib/W1506.md) **[+]**
-- [W1507 (shallow-copy-environ)](plerr/errors/stdlib/W1507.md)
-- [W1508 (invalid-envvar-default)](plerr/errors/stdlib/W1508.md)
-- [W1509 (subprocess-popen-preexec-fn)](plerr/errors/stdlib/W1509.md)
-- [W1510 (subprocess-run-check)](plerr/errors/stdlib/W1510.md)
+- [W1507 (shallow-copy-environ)](plerr/errors/stdlib/W1507.md) **[+]**
+- [W1508 (invalid-envvar-default)](plerr/errors/stdlib/W1508.md) **[+]**
+- [W1509 (subprocess-popen-preexec-fn)](plerr/errors/stdlib/W1509.md) **[+]**
+- [W1510 (subprocess-run-check)](plerr/errors/stdlib/W1510.md) **[+]**
 
 ### String Checker Messages
 
