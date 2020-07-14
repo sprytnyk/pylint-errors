@@ -347,22 +347,22 @@ Rationalisation provided for all entries.
 
 ### String Checker Messages
 
-- [E1300 (bad-format-character)](plerr/errors/string/E1300.md)
+- [E1300 (bad-format-character)](plerr/errors/string/E1300.md) **[+]**
 - [E1301 (truncated-format-string)](plerr/errors/string/E1301.md)
-- [E1302 (mixed-format-string)](plerr/errors/string/E1302.md)
+- [E1302 (mixed-format-string)](plerr/errors/string/E1302.md) **[+]**
 - [E1303 (format-needs-mapping)](plerr/errors/string/E1303.md)
-- [E1304 (missing-format-string-key)](plerr/errors/string/E1304.md)
-- [E1305 (too-many-format-args)](plerr/errors/string/E1305.md)
-- [E1306 (too-few-format-args)](plerr/errors/string/E1306.md)
-- [E1307 (bad-string-format-type)](plerr/errors/string/E1307.md)
+- [E1304 (missing-format-string-key)](plerr/errors/string/E1304.md) **[+]**
+- [E1305 (too-many-format-args)](plerr/errors/string/E1305.md) **[+]**
+- [E1306 (too-few-format-args)](plerr/errors/string/E1306.md) **[+]**
+- [E1307 (bad-string-format-type)](plerr/errors/string/E1307.md) **[+]**
 - [E1310 (bad-str-strip-call)](plerr/errors/string/E1310.md)
 - [W1300 (bad-format-string-key)](plerr/errors/string/W1300.md)
 - [W1301 (unused-format-string-key)](plerr/errors/string/W1301.md)
 - [W1302 (bad-format-string)](plerr/errors/string/W1302.md)
-- [W1303 (missing-format-argument-key)](plerr/errors/string/W1303.md)
-- [W1304 (unused-format-string-argument)](plerr/errors/string/W1304.md)
-- [W1305 (format-combined-specification)](plerr/errors/string/W1305.md)
-- [W1306 (missing-format-attribute)](plerr/errors/string/W1306.md)
+- [W1303 (missing-format-argument-key)](plerr/errors/string/W1303.md) **[+]**
+- [W1304 (unused-format-string-argument)](plerr/errors/string/W1304.md) **[+]**
+- [W1305 (format-combined-specification)](plerr/errors/string/W1305.md) **[+]**
+- [W1306 (missing-format-attribute)](plerr/errors/string/W1306.md) **[+]**
 - [W1307 (invalid-format-index)](plerr/errors/string/W1307.md)
 - [W1308 (duplicate-string-formatting-argument)](plerr/errors/string/W1308.md)
 - [W1401 (anomalous-backslash-in-string)](plerr/errors/string/W1401.md)
