@@ -358,26 +358,26 @@ Rationalisation provided for all entries.
 - [E1310 (bad-str-strip-call)](plerr/errors/string/E1310.md)
 - [W1300 (bad-format-string-key)](plerr/errors/string/W1300.md)
 - [W1301 (unused-format-string-key)](plerr/errors/string/W1301.md)
-- [W1302 (bad-format-string)](plerr/errors/string/W1302.md)
+- [W1302 (bad-format-string)](plerr/errors/string/W1302.md) **[+]**
 - [W1303 (missing-format-argument-key)](plerr/errors/string/W1303.md) **[+]**
 - [W1304 (unused-format-string-argument)](plerr/errors/string/W1304.md) **[+]**
 - [W1305 (format-combined-specification)](plerr/errors/string/W1305.md) **[+]**
 - [W1306 (missing-format-attribute)](plerr/errors/string/W1306.md) **[+]**
-- [W1307 (invalid-format-index)](plerr/errors/string/W1307.md)
+- [W1307 (invalid-format-index)](plerr/errors/string/W1307.md) **[+]**
 - [W1308 (duplicate-string-formatting-argument)](plerr/errors/string/W1308.md)
 - [W1401 (anomalous-backslash-in-string)](plerr/errors/string/W1401.md)
-- [W1402 (anomalous-unicode-escape-in-string)](plerr/errors/string/W1402.md)
+- [W1402 (anomalous-unicode-escape-in-string)](plerr/errors/string/W1402.md) **[+]**
 - [W1403 (implicit-str-concat-in-sequence)](plerr/errors/string/W1403.md)
 
 ### Typecheck Checker Messages
 
-- [E1101 (no-member)](plerr/errors/typecheck/E1101.md)
-- [E1102 (not-callable)](plerr/errors/typecheck/E1102.md)
-- [E1111 (assignment-from-no-return)](plerr/errors/typecheck/E1111.md)
-- [E1120 (no-value-for-parameter)](plerr/errors/typecheck/E1120.md)
-- [E1121 (too-many-function-args)](plerr/errors/typecheck/E1121.md)
-- [E1123 (unexpected-keyword-arg)](plerr/errors/typecheck/E1123.md)
-- [E1124 (redundant-keyword-arg)](plerr/errors/typecheck/E1124.md)
+- [E1101 (no-member)](plerr/errors/typecheck/E1101.md) **[+]**
+- [E1102 (not-callable)](plerr/errors/typecheck/E1102.md) **[+]**
+- [E1111 (assignment-from-no-return)](plerr/errors/typecheck/E1111.md) **[+]**
+- [E1120 (no-value-for-parameter)](plerr/errors/typecheck/E1120.md) **[+]**
+- [E1121 (too-many-function-args)](plerr/errors/typecheck/E1121.md) **[+]**
+- [E1123 (unexpected-keyword-arg)](plerr/errors/typecheck/E1123.md) **[+]**
+- [E1124 (redundant-keyword-arg)](plerr/errors/typecheck/E1124.md) **[+]**
 - [E1125 (missing-kwoa)](plerr/errors/typecheck/E1125.md)
 - [E1126 (invalid-sequence-index)](plerr/errors/typecheck/E1126.md)
 - [E1127 (invalid-slice-index)](plerr/errors/typecheck/E1127.md)
