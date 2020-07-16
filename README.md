@@ -379,14 +379,14 @@ Rationalisation provided for all entries.
 - [E1123 (unexpected-keyword-arg)](plerr/errors/typecheck/E1123.md) **[+]**
 - [E1124 (redundant-keyword-arg)](plerr/errors/typecheck/E1124.md) **[+]**
 - [E1125 (missing-kwoa)](plerr/errors/typecheck/E1125.md)
-- [E1126 (invalid-sequence-index)](plerr/errors/typecheck/E1126.md)
-- [E1127 (invalid-slice-index)](plerr/errors/typecheck/E1127.md)
-- [E1128 (assignment-from-none)](plerr/errors/typecheck/E1128.md)
-- [E1129 (not-context-manager)](plerr/errors/typecheck/E1129.md)
-- [E1130 (invalid-unary-operand-type)](plerr/errors/typecheck/E1130.md)
-- [E1131 (unsupported-binary-operation)](plerr/errors/typecheck/E1131.md)
+- [E1126 (invalid-sequence-index)](plerr/errors/typecheck/E1126.md) **[+]**
+- [E1127 (invalid-slice-index)](plerr/errors/typecheck/E1127.md) **[+]**
+- [E1128 (assignment-from-none)](plerr/errors/typecheck/E1128.md) **[+]**
+- [E1129 (not-context-manager)](plerr/errors/typecheck/E1129.md) **[+]**
+- [E1130 (invalid-unary-operand-type)](plerr/errors/typecheck/E1130.md) **[+]**
+- [E1131 (unsupported-binary-operation)](plerr/errors/typecheck/E1131.md) **[+]**
 - [E1132 (repeated-keyword)](plerr/errors/typecheck/E1132.md)
-- [E1133 (not-an-iterable)](plerr/errors/typecheck/E1133.md)
+- [E1133 (not-an-iterable)](plerr/errors/typecheck/E1133.md) **[+]**
 - [E1134 (not-a-mapping)](plerr/errors/typecheck/E1134.md)
 - [E1135 (unsupported-membership-test)](plerr/errors/typecheck/E1135.md)
 - [E1136 (unsubscriptable-object)](plerr/errors/typecheck/E1136.md)
