@@ -11,6 +11,8 @@ correct code.
 ## Table of contents
 
 - [CLI usage](#cli-usage)
+  - [Stable release](#stable-release)
+  - [Dev builds](#dev-builds)
 - [List of errors](#list-of-errors)
 
 ## CLI usage
@@ -21,12 +23,35 @@ It's not required to install CLI util as long as you can navigate list of
 errors [here](#list-of-errors) or on this
 [web-site](https://vald-phoenix.github.io/pylint-errors/)
 but you may want to do so.  
-In order to use `plerr` tool you need to invoke the following commands:
+
+
+### Stable release
+
+You can install a stable release simply by such commands:
+
+```console
+$ python3 -m pip install plerr
+$ plerr R1710
+```
+
+For [pipx](https://github.com/pipxproject/pipx):
+
+```console
+$ python3 -m pip install pipx # if not yet installed pipx
+$ python3 -m pipx ensurepath # ensure directory where pipx stores apps is on PATH
+$ pipx install plerr
+$ plerr R1710
+```
+
+### Dev builds
+
+In order to use development `plerr` builds you need to invoke the following commands:
 
 ```console
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
 $ sudo apt update && sudo apt install -y python3-pip # if not yet installed
 $ cd pylint-errors
+$ git checkout develop
 $ python3 setup.py test
 $ python3 setup.py install --user
 $ python3 -m plerr R1710
@@ -39,6 +64,7 @@ such commands:
 $ git clone https://github.com/vald-phoenix/pylint-errors.git
 $ sudo apt install -y make python3-pip python3-venv # if not yet installed
 $ cd pylint-errors
+$ git checkout develop
 $ python3 -m pip install pipx wheel # install a package to build a wheel and pipx
 $ python3 -m pipx ensurepath # ensure directory where pipx stores apps is on PATH
 $ python3 setup.py test # run tests
@@ -48,12 +74,7 @@ $ pipx install dist/* # install a binary wheel by pipx
 $ plerr R1710
 ```
 
-P.S. This is not PyPI package yet because it's better to have up to the date
-documentation available through `plerr` CLI util and I expected many changes
-will be introduced during the near time. When this project will
-become a more mature I will put it to PyPI.
-
-In order to get the latest updates just `git pull origin master` and invoke a
+In order to get the latest updates just `git pull origin develop` and invoke a
 command in the root of the project (`sudo apt install make` if not yet 
 installed) `make rai` to install to Python 3 user space site packages or
 `make raip` for pipx.
