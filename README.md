@@ -388,38 +388,38 @@ Rationalisation provided for all entries.
 - [E1132 (repeated-keyword)](plerr/errors/typecheck/E1132.md)
 - [E1133 (not-an-iterable)](plerr/errors/typecheck/E1133.md) **[+]**
 - [E1134 (not-a-mapping)](plerr/errors/typecheck/E1134.md)
-- [E1135 (unsupported-membership-test)](plerr/errors/typecheck/E1135.md)
-- [E1136 (unsubscriptable-object)](plerr/errors/typecheck/E1136.md)
-- [E1137 (unsupported-assignment-operation)](plerr/errors/typecheck/E1137.md)
-- [E1138 (unsupported-delete-operation)](plerr/errors/typecheck/E1138.md)
+- [E1135 (unsupported-membership-test)](plerr/errors/typecheck/E1135.md) **[+]**
+- [E1136 (unsubscriptable-object)](plerr/errors/typecheck/E1136.md) **[+]**
+- [E1137 (unsupported-assignment-operation)](plerr/errors/typecheck/E1137.md) **[+]**
+- [E1138 (unsupported-delete-operation)](plerr/errors/typecheck/E1138.md) **[+]**
 - [E1139 (invalid-metaclass)](plerr/errors/typecheck/E1139.md)
-- [E1140 (unhashable-dict-key)](plerr/errors/typecheck/E1140.md)
-- [E1141 (dict-iter-missing-items)](plerr/errors/typecheck/E1141.md)
+- [E1140 (unhashable-dict-key)](plerr/errors/typecheck/E1140.md) **[+]**
+- [E1141 (dict-iter-missing-items)](plerr/errors/typecheck/E1141.md) **[+]**
 - [I1101 (c-extension-no-member)](plerr/errors/typecheck/I1101.md)
-- [W1113 (keyword-arg-before-vararg)](plerr/errors/typecheck/W1113.md)
+- [W1113 (keyword-arg-before-vararg)](plerr/errors/typecheck/W1113.md) **[+]**
 - [W1114 (arguments-out-of-order)](plerr/errors/typecheck/W1114.md)
 
 ### Variables Checker Messages
 
-- [E0601 (used-before-assignment)](plerr/errors/variables/E0601.md)
+- [E0601 (used-before-assignment)](plerr/errors/variables/E0601.md) **[+]**
 - [E0602 (undefined-variable)](plerr/errors/variables/E0602.md)
-- [E0603 (undefined-all-variable)](plerr/errors/variables/E0603.md)
-- [E0604 (invalid-all-object)](plerr/errors/variables/E0604.md)
-- [E0611 (no-name-in-module)](plerr/errors/variables/E0611.md)
-- [E0633 (unpacking-non-sequence)](plerr/errors/variables/E0633.md)
-- [W0601 (global-variable-undefined)](plerr/errors/variables/W0601.md)
-- [W0602 (global-variable-not-assigned)](plerr/errors/variables/W0602.md)
-- [W0603 (global-statement)](plerr/errors/variables/W0603.md)
-- [W0604 (global-at-module-level)](plerr/errors/variables/W0604.md)
-- [W0611 (unused-import)](plerr/errors/variables/W0611.md)
-- [W0612 (unused-variable)](plerr/errors/variables/W0612.md)
-- [W0613 (unused-argument)](plerr/errors/variables/W0613.md)
-- [W0614 (unused-wildcard-import)](plerr/errors/variables/W0614.md)
-- [W0621 (redefined-outer-name)](plerr/errors/variables/W0621.md)
-- [W0622 (redefined-builtin)](plerr/errors/variables/W0622.md)
+- [E0603 (undefined-all-variable)](plerr/errors/variables/E0603.md) **[+]**
+- [E0604 (invalid-all-object)](plerr/errors/variables/E0604.md) **[+]**
+- [E0611 (no-name-in-module)](plerr/errors/variables/E0611.md) **[+]**
+- [E0633 (unpacking-non-sequence)](plerr/errors/variables/E0633.md) **[+]**
+- [W0601 (global-variable-undefined)](plerr/errors/variables/W0601.md) **[+]**
+- [W0602 (global-variable-not-assigned)](plerr/errors/variables/W0602.md) **[+]**
+- [W0603 (global-statement)](plerr/errors/variables/W0603.md) **[+]**
+- [W0604 (global-at-module-level)](plerr/errors/variables/W0604.md) **[+]**
+- [W0611 (unused-import)](plerr/errors/variables/W0611.md) **[+]**
+- [W0612 (unused-variable)](plerr/errors/variables/W0612.md) **[+]**
+- [W0613 (unused-argument)](plerr/errors/variables/W0613.md) **[+]**
+- [W0614 (unused-wildcard-import)](plerr/errors/variables/W0614.md) **[+]**
+- [W0621 (redefined-outer-name)](plerr/errors/variables/W0621.md) **[+]**
+- [W0622 (redefined-builtin)](plerr/errors/variables/W0622.md) **[+]**
 - [W0623 (redefine-in-handler)](plerr/errors/variables/W0623.md)
-- [W0631 (undefined-loop-variable)](plerr/errors/variables/W0631.md)
-- [W0632 (unbalanced-tuple-unpacking)](plerr/errors/variables/W0632.md)
-- [W0640 (cell-var-from-loop)](plerr/errors/variables/W0640.md)
+- [W0631 (undefined-loop-variable)](plerr/errors/variables/W0631.md) **[+]**
+- [W0632 (unbalanced-tuple-unpacking)](plerr/errors/variables/W0632.md) **[+]**
+- [W0640 (cell-var-from-loop)](plerr/errors/variables/W0640.md) **[+]**
 - [W0641 (possibly-unused-variable)](plerr/errors/variables/W0641.md)
 - [W0642 (self-cls-assignment)](plerr/errors/variables/W0642.md)
