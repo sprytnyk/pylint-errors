@@ -2,6 +2,8 @@
 [![CI Status](https://github.com/vald-phoenix/pylint-errors/workflows/CI/badge.svg)](https://github.com/vald-phoenix/pylint-errors/actions?workflow=CI)
 [![Testing Coverage](https://codecov.io/gh/vald-phoenix/pylint-errors/branch/master/graph/badge.svg)](https://codecov.io/gh/vald-phoenix/pylint-errors)
 [![Supported Versions](https://img.shields.io/badge/Python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](https://github.com/vald-phoenix/pylint-errors)
+[![PyPI](https://img.shields.io/pypi/v/plerr)](https://pypi.org/project/plerr/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/plerr)](https://pypi.org/project/plerr/)
 
 # pylint-errors
 
