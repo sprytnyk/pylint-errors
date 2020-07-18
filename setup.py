@@ -1,6 +1,9 @@
 """Setup of a plerr package."""
 import setuptools
 
+with open('README.md', 'r') as fh:
+    long_description = fh.read()
+
 setuptools.setup(
     name='plerr',
     version='0.0.1',
@@ -10,6 +13,8 @@ setuptools.setup(
         'A list of pylint-errors with reasoning and examples of erroneous and '
         'correct code.'
     ),
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/vald-phoenix/pylint-errors',
     packages=setuptools.find_packages(),
     install_requires=['Pygments'],
