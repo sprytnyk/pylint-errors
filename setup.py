@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='plerr',
-    version='1.0.0',
+    version='1.0.1',
     author='Vladyslav Krylasov',
     author_email='vladyslav.krylasov@gmail.com',
     description=(
