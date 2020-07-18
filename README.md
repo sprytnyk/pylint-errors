@@ -15,7 +15,7 @@ correct code.
 
 ## CLI usage
 
-![Example](media/example.svg)
+![Example](https://raw.githubusercontent.com/vald-phoenix/pylint-errors/master/media/example.svg)
 
 It's not required to install CLI util as long as you can navigate list of
 errors [here](#list-of-errors) or on this
