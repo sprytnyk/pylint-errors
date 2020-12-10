@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='plerr',
-    version='1.0.1',
+    version='1.0.2',
     author='Vladyslav Krylasov',
     author_email='vladyslav.krylasov@gmail.com',
     description=(
@@ -17,8 +17,8 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/vald-phoenix/pylint-errors',
     packages=setuptools.find_packages(),
-    install_requires=['Pygments'],
-    test_suite='plerr.tests.test_package',
+    install_requires=['Pygments==2.7.3'],
+    test_suite='plerr.tests',
     python_requires='>=3.5',
     include_package_data=True,
     keywords=['pylint', 'errors', 'documentation'],

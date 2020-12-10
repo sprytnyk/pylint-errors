@@ -1,15 +1,15 @@
-[01m[35m##[39;49;00m R1710 (inconsistent-return-statements)
+[01m[35m## R1710 (inconsistent-return-statements)[39;49;00m
 
-[01m[35m###[39;49;00m :x: Problematic code:
-
+[01m[35m### :x: Problematic code:[39;49;00m
+[33m[39;49;00m
 [33m```[39;49;00m[33mpython[39;49;00m
 [34mdef[39;49;00m [32mfoo[39;49;00m(x):
     [34mif[39;49;00m x:
         [34mreturn[39;49;00m [34m1[39;49;00m
 [33m```[39;49;00m
 
-[01m[35m###[39;49;00m :heavy_check_mark: Correct code:
-
+[01m[35m### :heavy_check_mark: Correct code:[39;49;00m
+[33m[39;49;00m
 [33m```[39;49;00m[33mpython[39;49;00m
 [34mdef[39;49;00m [32mfoo[39;49;00m(x):
     [34mif[39;49;00m x:
@@ -18,7 +18,7 @@
     [34mreturn[39;49;00m [34mNone[39;49;00m
 [33m```[39;49;00m
 
-[01m[35m###[39;49;00m Rationale:
+[01m[35m### Rationale:[39;49;00m
 
 Either all [33m`return`[39;49;00m statements in a function should [33m`return`[39;49;00m an expression, 
 or none of them should. According to **`PEP8`**, if any [33m`return`[39;49;00m statement
@@ -26,7 +26,7 @@ returns an expression, any [33m`return`[39;49;00m statements where no value is
 should explicitly state this as [33m`return None`[39;49;00m, and an explicit [33m`return`[39;49;00m
 statement should be present at the end of the function (if reachable).
 
-[01m[35m###[39;49;00m Related resources:
+[01m[35m### Related resources:[39;49;00m
 
 [34m-[39;49;00m [[94mTestcases[39;49;00m]([36mhttps://github.com/PyCQA/pylint/blob/master/tests/functional/i/inconsistent_returns.py[39;49;00m)
 [34m-[39;49;00m [[94mIssue Tracker[39;49;00m]([36mhttps://github.com/PyCQA/pylint/issues?q=is%3Aissue+%22inconsistent-return-statements%22+OR+%22R1710%22[39;49;00m)
