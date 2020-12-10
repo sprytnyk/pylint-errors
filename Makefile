@@ -2,7 +2,7 @@
 
 clean:
 	@echo "Cleaning up build related dirs..."
-	@rm -rf build dist plerr.egg-info 2>/dev/null
+	@rm -rf build dist plerr.egg-info .eggs 2>/dev/null
 
 rai: clean
 	@echo "Rebuilding and installing plerr package..."
