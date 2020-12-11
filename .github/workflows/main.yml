@@ -26,7 +26,7 @@ jobs:
     - name: Run package coverage checks
       run: |
         coverage run --source=plerr.cli -m \
-        unittest plerr/tests/test_cli_module.py && \
+        unittest -v plerr/tests/test_cli_module.py && \
         coverage report && coverage xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
