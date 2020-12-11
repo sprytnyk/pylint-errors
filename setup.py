@@ -1,24 +1,33 @@
 """Setup of a plerr package."""
+
+import pathlib
+import re
 import setuptools
 
-with open('README.md', 'r') as fh:
-    long_description = fh.read()
+ROOT = pathlib.Path(__file__).resolve().parent
+VERSION = (
+    re.compile(r'__version__ = ["\'](.*?)["\']', re.S)
+    .match((ROOT / 'plerr' / '__init__.py').read_text())
+    .group(1)
+)
+LONG_DESCRIPTION = (ROOT / 'README.md').read_text()
+
 
 setuptools.setup(
     name='plerr',
-    version='1.0.2',
+    version=VERSION,
     author='Vladyslav Krylasov',
     author_email='vladyslav.krylasov@gmail.com',
     description=(
         'A list of pylint-errors with reasoning and examples of erroneous and '
         'correct code.'
     ),
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     url='https://github.com/vald-phoenix/pylint-errors',
     packages=setuptools.find_packages(),
     install_requires=['Pygments==2.7.3'],
-    test_suite='plerr.tests',
+    test_suite='plerr.tests.test_package',
     python_requires='>=3.5',
     include_package_data=True,
     keywords=['pylint', 'errors', 'documentation'],

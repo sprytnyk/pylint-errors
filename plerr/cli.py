@@ -1,4 +1,5 @@
 """CLI module."""
+
 import argparse
 import pathlib
 import sys
@@ -6,6 +7,8 @@ import sys
 from pygments import highlight
 from pygments.lexers import MarkdownLexer
 from pygments.formatters import TerminalFormatter
+
+from plerr import __version__
 
 
 def main():
@@ -18,24 +21,25 @@ def main():
     )
     parser.add_argument(
         'code',
-        metavar='code',
+        metavar='error code',
         type=str,
-        help='A pylint error code e.g. R1710'
+        help='a pylint error code either r1710 or R1710'
+    )
+    parser.add_argument(
+        '-v',
+        '--version',
+        action='version',
+        version='plerr v{}'.format(__version__)
     )
     args = parser.parse_args()
 
     root = pathlib.Path(__file__).resolve().parent
-    error = list(root.rglob('*{}.md'.format(args.code)))
     try:
-        print(
-            highlight(
-                error[0].read_bytes(),
-                MarkdownLexer(),
-                TerminalFormatter()
-            )
-        )
+        error = next(root.rglob('*{}.md'.format(args.code.upper())))
+        content = error.read_bytes()
+        print(highlight(content, MarkdownLexer(), TerminalFormatter()))
         sys.exit(0)
-    except IndexError:
+    except StopIteration:
         print(
             'Cannot find {} pylint error by such error code.'.format(
                 args.code
