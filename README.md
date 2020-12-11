@@ -33,7 +33,7 @@ You can install a stable release simply by such commands:
 
 ```console
 $ python3 -m pip install plerr
-$ plerr R1710
+$ plerr r1710
 ```
 
 For [pipx](https://github.com/pipxproject/pipx):
@@ -42,7 +42,7 @@ For [pipx](https://github.com/pipxproject/pipx):
 $ python3 -m pip install pipx # if not yet installed pipx
 $ python3 -m pipx ensurepath # ensure directory where pipx stores apps is on PATH
 $ pipx install plerr
-$ plerr R1710
+$ plerr r1710
 ```
 
 ### Dev builds
@@ -55,7 +55,7 @@ $ sudo apt update && sudo apt install -y python3-pip # if not yet installed
 $ cd pylint-errors
 $ python3 setup.py test
 $ python3 setup.py install --user
-$ python3 -m plerr R1710
+$ python3 -m plerr r1710
 ```
 
 [pipx](https://github.com/pipxproject/pipx) users may install the library by
@@ -71,7 +71,7 @@ $ python3 setup.py test # run tests
 $ make clean
 $ python3 setup.py bdist_wheel # build a binary wheel
 $ pipx install dist/* # install a binary wheel by pipx
-$ plerr R1710
+$ plerr r1710
 ```
 
 In order to get the latest updates just `git pull origin master` and invoke a
