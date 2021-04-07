@@ -8,7 +8,7 @@ from pygments import highlight
 from pygments.lexers import MarkdownLexer
 from pygments.formatters import TerminalFormatter
 
-from plerr import __version__
+from . import __version__
 
 
 def main():
