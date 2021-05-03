@@ -29,21 +29,19 @@ def main():
         '-v',
         '--version',
         action='version',
-        version='plerr v{}'.format(__version__)
+        version=f'plerr v{__version__}'
     )
     args = parser.parse_args()
 
     root = pathlib.Path(__file__).resolve().parent
     try:
-        error = next(root.rglob('*{}.md'.format(args.code.upper())))
+        error = next(root.rglob(f'*{args.code.upper()}.md'))
         content = error.read_bytes()
         print(highlight(content, MarkdownLexer(), TerminalFormatter()))
         sys.exit(0)
     except StopIteration:
         print(
-            'Cannot find {} pylint error by such error code.'.format(
-                args.code
-            ),
+            f'Cannot find {args.code} pylint error by such error code.',
             file=sys.stderr
         )
         sys.exit(1)
