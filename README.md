@@ -320,7 +320,7 @@ Rationalisation provided for all entries.
 - [C1801 (len-as-condition)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/C1801) **[+]**
 - [R1701 (consider-merging-isinstance)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1701)
 - [R1702 (too-many-nested-blocks)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1702)
-- [R1703 (simplifiable-if-statement)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1703)
+- [R1703 (simplifiable-if-statement)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1703) **[+]**
 - [R1704 (redefined-argument-from-local)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1704)
 - [R1705 (no-else-return)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1705) **[+]**
 - [R1706 (consider-using-ternary)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1706)
