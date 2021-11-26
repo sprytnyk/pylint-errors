@@ -1,14 +1,33 @@
-[![PyPI - License](https://img.shields.io/pypi/l/plerr)](https://github.com/vald-phoenix/pylint-errors/blob/master/LICENSE)
-[![CI Status](https://github.com/vald-phoenix/pylint-errors/workflows/CI/badge.svg)](https://github.com/vald-phoenix/pylint-errors/actions?workflow=CI)
-[![Testing Coverage](https://codecov.io/gh/vald-phoenix/pylint-errors/branch/master/graph/badge.svg)](https://codecov.io/gh/vald-phoenix/pylint-errors)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/plerr)](https://github.com/vald-phoenix/pylint-errors)
-[![PyPI](https://img.shields.io/pypi/v/plerr)](https://pypi.org/project/plerr/)
-[![PyPI - Wheel](https://img.shields.io/pypi/wheel/plerr)](https://pypi.org/project/plerr/)
+<h1 align="center">
+  <br>
+  <a href="https://github.com/vald-phoenix/pylint-errors"><img src="media/logo.png" width="200px" height="auto" alt="plerr"></a>
+  <br>
+</h1>
 
-# pylint-errors
+<h4 align="center">A list of pylint-errors with reasoning and examples of erroneous and correct code.</h4>
 
-A list of pylint-errors with reasoning and examples of erroneous and
-correct code.
+<p align="center">
+  <a href="https://github.com/vald-phoenix/pylint-errors/blob/master/LICENSE">
+    <img src="https://img.shields.io/pypi/l/plerr">
+  </a>
+  <a href="https://github.com/vald-phoenix/pylint-errors/actions?workflow=CI">
+    <img src="https://github.com/vald-phoenix/pylint-errors/workflows/CI/badge.svg">
+  </a>
+  <a href="https://codecov.io/gh/vald-phoenix/pylint-errors">
+    <img src="https://codecov.io/gh/vald-phoenix/pylint-errors/branch/master/graph/badge.svg">
+  </a>
+  <a href="https://github.com/vald-phoenix/pylint-errors">
+      <img src="https://img.shields.io/pypi/pyversions/plerr">
+  </a>
+  <a href="https://pypi.org/project/plerr/">
+      <img src="https://img.shields.io/pypi/v/plerr">
+  </a>
+  <a href="https://pypi.org/project/plerr/">
+      <img src="https://img.shields.io/pypi/wheel/plerr">
+  </a>
+</p>
+
+![Example](media/example.svg)
 
 ## Table of contents
 
@@ -18,8 +37,6 @@ correct code.
 - [List of errors](#list-of-errors)
 
 ## CLI usage
-
-![Example](https://raw.githubusercontent.com/vald-phoenix/pylint-errors/master/media/example.svg)
 
 It's not required to install CLI util as long as you can navigate list of
 errors [here](#list-of-errors) or on this
