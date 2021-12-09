@@ -355,7 +355,7 @@ Rationalisation provided for all entries.
 - [R1718 (consider-using-set-comprehension)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1718)
 - [R1719 (simplifiable-if-expression)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1719) **[+]**
 - [R1720 (no-else-raise)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1720) **[+]**
-- [R1721 (unnecessary-comprehension)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1721)
+- [R1721 (unnecessary-comprehension)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1721) **[+]**
 - [R1722 (consider-using-sys-exit)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1722) **[+]**
 - [R1723 (no-else-break)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1723) **[+]**
 - [R1724 (no-else-continue)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1724) **[+]**
