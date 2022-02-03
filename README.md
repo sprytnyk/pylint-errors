@@ -250,7 +250,7 @@ Rationalisation provided for all entries.
 - [W0705 (duplicate-except)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0705) **[+]**
 - [W0706 (try-except-raise)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0706) **[+]**
 - [W0711 (binary-op-exception)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0711) **[+]**
-- [W0715 (raising-format-tuple)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0715)
+- [W0715 (raising-format-tuple)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0715) **[+]**
 - [W0716 (wrong-exception-operation)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0716) **[+]**
 
 ### Format Checker Messages
@@ -338,7 +338,7 @@ Rationalisation provided for all entries.
 - [R1701 (consider-merging-isinstance)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1701)
 - [R1702 (too-many-nested-blocks)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1702)
 - [R1703 (simplifiable-if-statement)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1703) **[+]**
-- [R1704 (redefined-argument-from-local)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1704)
+- [R1704 (redefined-argument-from-local)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1704) **[+]**
 - [R1705 (no-else-return)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1705) **[+]**
 - [R1706 (consider-using-ternary)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1706)
 - [R1707 (trailing-comma-tuple)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/refactoring/R1707) **[+]**
