@@ -291,7 +291,7 @@ Rationalisation provided for all entries.
 ### Logging Checker Messages
 
 - [E1200 (logging-unsupported-format)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/E1200)
-- [E1201 (logging-format-truncated)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/E1201)
+- [E1201 (logging-format-truncated)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/E1201) **[+]**
 - [E1205 (logging-too-many-args)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/E1205)
 - [E1206 (logging-too-few-args)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/E1206)
 - [W1201 (logging-not-lazy)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/logging/W1201) **[+]**
