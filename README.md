@@ -7,6 +7,9 @@
 <h4 align="center">A list of pylint-errors with reasoning and examples of erroneous and correct code.</h4>
 
 <p align="center">
+  <a href="https://github.com/vald-phoenix/pylint-error">
+      <img src="https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7">
+  </a>
   <a href="https://github.com/vald-phoenix/pylint-errors/blob/master/LICENSE">
     <img src="https://img.shields.io/pypi/l/plerr">
   </a>
