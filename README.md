@@ -1,6 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/vald-phoenix/pylint-errors"><img src="media/logo.png" width="200px" height="auto" alt="plerr"></a>
+  <a href="https://github.com/vald-phoenix/pylint-errors">
+      <img src="https://raw.githubusercontent.com/vald-phoenix/pylint-errors/master/media/logo.png" width="200px" height="auto" alt="plerr">
+  </a>
   <br>
 </h1>
 
@@ -30,7 +32,7 @@
   </a>
 </p>
 
-![Example](media/example.svg)
+![Example](https://raw.githubusercontent.com/vald-phoenix/pylint-errors/master/media/example.svg)
 
 ## Table of contents
 
