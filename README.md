@@ -254,6 +254,7 @@ Rationalisation provided for all entries.
 - [W0703 (broad-except)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0703) **[+]**
 - [W0705 (duplicate-except)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0705) **[+]**
 - [W0706 (try-except-raise)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0706) **[+]**
+- [W0707 (raise-missing-from)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0707) **[+]**
 - [W0711 (binary-op-exception)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0711) **[+]**
 - [W0715 (raising-format-tuple)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0715) **[+]**
 - [W0716 (wrong-exception-operation)](https://vald-phoenix.github.io/pylint-errors/plerr/errors/exceptions/W0716) **[+]**
