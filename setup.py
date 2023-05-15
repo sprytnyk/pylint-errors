@@ -24,7 +24,7 @@ setuptools.setup(
     ),
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    url='https://github.com/vald-phoenix/pylint-errors',
+    url='https://github.com/britonad/pylint-errors',
     packages=setuptools.find_packages(),
     install_requires=['Pygments==2.12.0'],
     test_suite='plerr.tests.test_package',
