@@ -20,7 +20,7 @@ jobs:
         set -ex
         python -VV
         python -m site
-        python -m pip install coverage Pygments
+        python -m pip install coverage Pygments==2.15.1
     - name: Run package build checks
       run: python setup.py test
     - name: Run package coverage checks
@@ -33,3 +33,4 @@ jobs:
       with:
           file: ./coverage.xml
           fail_ci_if_error: true
+          token: ${{ secrets.CODECOV_TOKEN }}
