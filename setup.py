@@ -26,7 +26,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/sprytnyk/pylint-errors',
     packages=setuptools.find_packages(),
-    install_requires=['Pygments==2.17.2'],
+    install_requires=['Pygments==2.20.0'],
     test_suite='plerr.tests.test_package',
     python_requires='>=3.7',
     include_package_data=True,
